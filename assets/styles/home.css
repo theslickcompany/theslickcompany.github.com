@@ -1,0 +1,96 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  min-width: 700px;
+
+  background: #333;
+  color: #fff;
+
+  font-size: 10px;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, serif;
+}
+
+a:link, a:visited 
+{
+  text-decoration: none;
+  color: #3892ED;
+  border-bottom: 1px dotted #a0a0a0;
+}
+
+a:hover, a:active
+{
+  border-bottom: 1px solid #000;
+}
+
+#page
+{
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  text-align: center;
+}
+
+#page_top
+{
+  margin: 0;
+  padding: 0;
+}
+
+#content
+{
+  margin: 0 auto;
+  padding: 10px 0 25px 0;
+
+  width: 700px;
+  text-align: left;
+
+  font-size: 14px;
+}
+
+#content_parent
+{
+  background: url(/assets/images/content-bg.jpg) repeat-x top;
+  border-bottom: 3px solid #0066CB;
+}
+
+#content_parent
+{
+  background: inherit;
+  border-bottom: none;
+}
+
+#content
+{
+  width: 800px;
+  height: 600px;
+  background: url(/assets/images/main-bubble.jpg) no-repeat center;
+}
+
+#home_links
+{
+  position: relative;
+  left: 480px;
+  top: 190px;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+li
+{
+  margin: 10px 0;
+  padding: 0;
+  font-size: 26px;
+  color: #6A6C6B;
+}
+
+a:link,
+a:visited
+{
+  color: inherit; 
+  border: inherit;
+}
